@@ -73,9 +73,12 @@ body {
     text-align: left;
 }
 
-.amedia {
+.aimg {
     border: 2px, goldenrod;
     padding: 3px;
+    width: 30%;
+    height: 30%;
+    
 }
 
 .abottom {
@@ -87,14 +90,14 @@ body {
 }
 
 .atop {
-    position: fixed;
+    position: absolute;
     top: 5px; left: 5px;
     right: 5px;
     text-align: left;
 }
 
 .acontent {
-    position: fixed;
+    position: absolute;
     top: 18%;
     bottom: 15%;
     left: 35%;
@@ -113,6 +116,16 @@ body {
     position: relative;
     float: right;
 }
-.summary{
-    
+.anavtext{
+    color: aliceblue;
+}
+.h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:burlywood;
+    font-size:xx-large;
+    text-decoration: underline;
+}
+.pagenav{
+    position: fixed;
+    float: right;
 }
